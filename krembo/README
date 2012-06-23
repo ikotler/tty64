@@ -1,0 +1,1 @@
+Krembo is a Windows driver that demonstrates how to do an inline function hooking (aka. Detouring) within Windows kernel

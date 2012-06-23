@@ -1,0 +1,9 @@
+
+I'm not sure how much portable this code is.
+
+If you manage to run this code on anything else but Linux, let me know. I've tried it once on FreeBSD and it didn't work
+to due GNU Hashtable API (which is __USE_GNU extensions in my case) and it seems to be not so common/implemented after all.
+
+Porting this code to another OS's rather than Linux isn't made it to my TODO list. However i would kindly accept 
+any patch's or suggestions on how to make this code more cross-platform and portable.
+

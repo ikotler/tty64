@@ -1,0 +1,21 @@
+
+INSTALL
+-------
+
+	Hydrogen LKM
+	------------
+
+		Inorder to use Hydrogen, the kernel must be compiled with module support.
+		To check if your kernel supports modules just try to execute 'lsmod' and
+		if no errors been generated it's safe to assume it is.
+
+		To compile Hydrogen simply type 'make all', afterward you should see a file
+		called 'hydrogen.ko' to activate type 'insmod hydrogen.ko', and to deactivate
+		you should type 'rmmod hydrogen', while Hydrogen is activated you should
+		see it's entry in 'lsmod' output
+
+	EXAMPLES
+	--------
+
+		For examples packed in this package, you would need nasm (http://nasm.sourceforge.net)
+

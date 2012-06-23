@@ -1,0 +1,35 @@
+                                   o888  o88   oooo        < 32 ; for the hack of it ;-) >
+oo oooooo  oooo  oooo  oo oooooo    888  oooo   888ooooo   
+ 888    888 888   888   888   888   888   888   888    888 
+ 888        888   888   888   888   888   888   888    888 
+o888o        888o88 8o o888o o888o o888o o888o o888ooo88   / v0.1, beta
+
+-- < mailto:ik@ikotler.org ; http://www.ikotler.org >
+
+INTRODUCTION
+------------
+	
+	Runlib is the Linux equivalent of Windows 'rundll32' utility with more features.
+
+FEATURES
+--------
+
+	* Execute C functions from a command line
+
+	* Automatically dereferencing "String" pointers
+
+	* Supports by Val and by Reference parameters
+
+	* Buffering function STDOUT and STDERR pipes
+
+	* Exotic verbose output
+
+INSTALL
+-------
+
+        Please follow the instructions in the `INSTALL` file and 'RUNLIB-HOWTO' for futher instructions and examples.
+
+GREETS
+------
+
+        I would like to thank everyone who helped me with this project. No need to shout out names y'all know who you are ;-)

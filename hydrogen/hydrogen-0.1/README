@@ -1,0 +1,28 @@
+`Yb.                                              .dP"Yb                
+  `Yb                                           dP'   d'                
+    Yb                                                                  
+     Yb      .dP""Yb  `Yb.d88b d88b  `Yb    dP'   'Yb    `Yb d88b d88b  
+    dPYb           Yb  88'   8Y   8b   Yb  dP      88     88P   8Y   8b 
+  ,dP  Yb          dP  88    8P   88    YbdP       88     88    8P   88 
+.dP'    `Yb. `YbwwdP   88  ,dP  ,dP     .8P       .8P    .8P  bdP  bdP  
+                       88             dP'  b                            
+                       88             Y.  ,P                            
+                      .8P              `""'                             / v0.1, beta
+
+-- < mailto:ik@ikotler.org ; http://www.ikotler.org >
+
+INTRODUCTION
+------------
+
+	Hydrgeon is LKM (Loadable Kernel Module) for Linux 2.6.x kernel, that allow raw binary (.COM-a-like) executable support
+
+INSTALL
+-------
+
+        Please follow the instructions in the `INSTALL` file
+
+GREETS
+------
+
+        I would like to thank everyone who helped me with this project. No need to shout out names y'all know who you are ;-)
+

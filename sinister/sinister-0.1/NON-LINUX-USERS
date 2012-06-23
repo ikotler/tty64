@@ -1,0 +1,6 @@
+
+This program is heavily depended on 'ptrace()' syscall implementation
+I have only tested it on x86/Linux (kernels 2.6.9 and 2.6.12.2). 
+
+if you tried to use it on different platform|architecture and you have feedbacks or patchs, please let me know :)
+

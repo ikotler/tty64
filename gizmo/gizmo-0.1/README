@@ -1,0 +1,42 @@
+   ________ .__ __________   _____   ________   
+  /  _____/ |__|\____    /  /     \  \_____  \  
+ /   \  ___ |  |  /     /  /  \ /  \  /   |   \ 
+ \    \_\  \|  | /     /_ /    Y    \/    |    \
+  \______  /|__|/_______ \\____|__  /\_______  / 
+         \/             \/        \/         \/ * (v0.1, beta)
+
+-- < mailto:ik@ikotler.org ; http://www.ikotler.org >
+
+INTRODUCTION
+------------
+
+	Gizmo is an ELF protector, which allows you to insert shellcodes into ELF executable. The shellcode will be executed prior to the program itself.
+
+FEATURES
+--------
+
+	* Anti-Debugging - Protect your ELF from been debugged through STRACE and GDB
+
+	* ELF Encryption - Execution time ELF self decoding using a password
+
+INSTALL
+-------
+
+        Please follow the instructions in the `INSTALL` file
+
+TESTED
+------
+
+	* Linux 2.6.9 / Slackware
+	
+	* FreeBSD 5.3-RELEASE (w/ Linux Compatibility)
+
+GREETS
+------
+
+        I would like to thank everyone who helped me with this project. No need to shout out names y'all know who you are ;-)
+
+CREDITS
+-------
+
+	This program implements an idea that was originally appeared in an article called 'UNIX VIRUSES' by Silvio Cesare <silvio@big.net.au>

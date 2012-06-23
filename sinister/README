@@ -1,0 +1,2 @@
+Sinister is a reverse engineering utility that allows you to manipulate executables memory images. 
+For instance, it can dump the process image to file or patch the loaded image.

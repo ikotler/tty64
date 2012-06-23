@@ -1,0 +1,2 @@
+Gizmo is an ELF protector that allows you to insert shellcodes into ELF executables. 
+The shellcode will be executed prior to the program itself. It includes anti-debugging and ELF encryption features.

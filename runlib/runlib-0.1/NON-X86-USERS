@@ -1,0 +1,4 @@
+
+This program includes some gcc inline assembly (Intel x86) which is used to build and clean the function stack.
+if you tried to use it on different platform|architecture and you have feedbacks or patchs, please let me know :)
+

@@ -1,0 +1,65 @@
+<author: ik@ikotler.org ; Tue Aug 23 22:54:40 IDT 2005>
+
+RUNLIB-HOWTO
+------------
+
+	Runlib is the Linux equivalent of Windows 'rundll32' utility with a few tweaks. In other words it allow you execute functions 
+	from shared libraries without coding a single line in C, all from your favorite shell.
+
+SYNTAX
+------
+
+	Runlib syntax is somewhat similer to Windows rundll32. It require a library name (or full path) then the function name and
+	afterward a list of arguments to pass along. The library name lookup method relays on system linker and you should make sure
+	that the full library path is in the '/etc/ld.so.conf' and ldconfig has cached it. otherwise use the full path instead.
+
+PARAMTERS TYPES
+---------------
+
+	There are two ways of passing parameters to a function, By Value methods means to pass the value itself while By Ref
+	means to pass a pointer to the value which is basically a pointer. Depends on the function prototype and usage you should
+	make sure that parameteres are passed in the right order and type. By default the program would assume everything 
+	is By Val and in Hexdeicmal base using the double quotes (eg. "") would make sure that the given data would be passed
+	as pointer. Also notice that By Ref quotes are being explicty pushed (eg. \") as most shells interpreted double quotes
+	as a String. This by itself is very useful when one wants to pass a String (eg. char *) as a parameters.
+
+EXAMPLES
+--------
+
+	"Hello World Example"
+	---------------------
+
+		root@magicbox:~# ./runlib libc.so.6,printf \""Hello World"\"
+		(11)
+		root@magicbox:~#
+
+	"Where is Wolldo?"
+	------------------
+
+		root@magicbox:~# ./runlib libc.so.6,strstr \""Where is Waldo\"" \"Waldo\"
+		(0xbfb6d989) [Waldo]
+		root@magicbox:~#
+
+	"Advance Printf"
+	----------------
+
+		root@magicbox:~# ./runlib libc.so.6,printf \""Hello %s, I am %d years old\"" \"World\" 0x5
+		(29)
+		root@magicbox:~#
+
+	"Printf w/ Buffering"
+	---------------------
+
+		root@magicbox:~# ./runlib libc.so.6,printf \""Hello %s, I am %d years old\"" \"World\" 0x5
+		(29)
+		root@magicbox:~# cat printf.stdout ; echo
+		Hello World, I am 5 years old
+		root@magicbox:~#
+
+	"Size does matter"
+	------------------
+	
+		root@magicbox:~# ./runlib libc.so.6,strlen \""Welcome to New York city and have a nice day\""
+		(44)
+		root@magicbox:~#
+

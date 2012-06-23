@@ -1,0 +1,2 @@
+shcfuscator is an assembly obfuscator, designed to obfuscated shellcodes against NIDS signatures.
+But not limited to, it is also can be used as a mini-framework for parsing AT&T assembly files in Python

@@ -1,0 +1,38 @@
+          d8,            d8,                                
+         `8P            `8P            d8P                  
+                                    d888888P                
+ .d888b,  88b  88bd88b   88b .d888b,  ?88'   d8888b  88bd88b
+ ?8b,     88P  88P' ?8b  88P ?8b,     88P   d8b_,dP  88P'  `
+   `?8b  d88  d88   88P d88    `?8b   88b   88b     d88     
+`?888P' d88' d88'   88bd88' `?888P'   `?8b  `?888P'd88'     / v0.1, beta
+
+-- < mailto:ik@ikotler.org ; http://www.ikotler.org > 
+
+INTRODUCTION
+------------
+
+	Sinister is a reverse engineering utility that allow you to manipulate executables memory images
+	
+FEATURES
+--------
+	
+	* Memory Dump, allow you to dump process memory image w/ hex viewer built-in!
+
+	* Memory Map, allow you to map process memory image
+
+	* Memory Patch, allow you to patch (code-injection) the process memory image
+
+	* Binary I/O, support writing|reading binary images
+
+	* PID|Stand alone, allow you to attach to an exists process or start a new one
+
+INSTALL
+-------
+
+	Please follow the instructions in the `INSTALL` file
+	
+GREETS
+------
+	
+	I would like to thank everyone who helped me with this project. No need to shout out names y'all know who you are ;-)
+

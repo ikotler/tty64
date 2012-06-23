@@ -1,0 +1,17 @@
+[ shcfuscator, Assembly (shellcode) obfuscator ; beta v0.1 ]
+
+-- < mailto:ik@ikotler.org ; http://www.ikotler.org >
+
+INTRODUCTION
+------------
+
+	shcfuscator is an assembly obfuscator, designed to obfuscated shellcodes against NIDS signatures.
+	But not limited to, it is also can be used as a mini-framework for parsing AT&T assembly files in Python.
+	
+GREETS
+------
+
+        I would like to thank everyone who helped me with this project. No need to shout out names y'all know who you are ;-)
+
+
+

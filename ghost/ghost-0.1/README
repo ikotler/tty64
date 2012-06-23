@@ -1,0 +1,36 @@
+            oooo                                  o8   
+  oooooooo8  888ooooo     ooooooo    oooooooo8  o888oo 
+888    88o   888   888  888     888 888ooooooo   888   
+ 888oo888o   888   888  888     888         888  888    
+888     888 o888o o888o   88ooo88   88oooooo88    888o / v0.1, beta
+ 888ooo888 
+
+-- < mailto:ik@ikotler.org ; http://www.ikotler.org > 
+
+INTRODUCTION
+------------
+
+	Ghost is an anonymous surfing utility. it's acts as a single proxy/gateway and tunnel requests in and out from your favorite browser.
+	
+FEATURES
+--------
+
+	* HTTP-Frenzy, Separate each REQUEST and tunnel through different proxy
+
+	* Cookies Filter, Filter SERVER and CLIENT Cookies 
+
+	* Web GUI, Simple and clean Interface accessable by any Browser
+
+	* Proxies Database Maintance, Add/Remove Proxies on the fly with HTTP Content Validation to detect a broken proxies.
+
+INSTALL
+-------
+
+	Please follow the instructions in the `INSTALL` file
+
+GREETS
+------
+	
+	I would like to thank everyone who helped me with this project. No need to shout out names y'all know who you are ;-)
+
+

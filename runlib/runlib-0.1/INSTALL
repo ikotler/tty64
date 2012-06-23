@@ -1,0 +1,11 @@
+
+INSTALL
+-------
+
+	This program using the 'Runtime Linker Library' which should be installed by default. The supplied Makefile in this package
+	by default assume you trying to compile this program on Linux which requires to include the '-ldl' during the compiltion.
+	However to the best of my knowledge in *BSD it's not require and might cause compile errors. In that case a slighty modifiction
+	in the Makefile is required (eg. remove the '-ldl' from LIBS tab)
+
+	You should type 'make all' and if everything goes as planned you should have an executable named 'runlib'
+

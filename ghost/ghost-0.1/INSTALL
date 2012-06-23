@@ -1,0 +1,3 @@
+
+Just type 'make' it takes a few mins. Afterward you should create/modify the config file for your needs.
+Then whats left is to configure your favorite Browser to use 'Proxy' using the IP/PORT you choose in the config file.

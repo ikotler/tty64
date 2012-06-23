@@ -1,0 +1,17 @@
+FOOTNOTES
+---------
+
+	* The INT 3h Gizmo is implemented in a way that it's hijack the SIGTRAP HANDLER RET address and resume flow from it. I have my doubts 
+	  about how smart this trick can be, since i didn't take the time to proper study the way Linux Kernel handles such events.
+	  It might put the entire program in a very unstable position (?) ;-)
+
+	* The PTRACE Gizmo is using PTRACE_TRACEME which can not be disabled during runtime. In additon to the INT 3h Gizmo if the PTRACE would
+	  run perior to the INT 3h it would cause bizzare side effects since the SIGTRAP signal caught by the PTRACE. You should keep it the 
+	  other way around (1st INT 3h , 2nd PTRACE) if you wish to combain the two of 'em in the same ELF.
+
+	* The Encryption gizmo is a very basic one. I didn't put any magic hash to verify the password against. In other words it would try to 
+	  decode the .TEXT section anyway and if the password is incorrect it would still jump to it and most likely would hit a SIGSEGV
+
+	* The Assembly garbage generator isn't based on any smart algorithm. Just a little bit randomize junk 
+
+	* Once you pad your ELF with generated assembly garbage. You can no longer append any Gizmo's to it!
